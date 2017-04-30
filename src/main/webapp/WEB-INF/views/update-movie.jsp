@@ -40,6 +40,8 @@
 
 	</form:form>
 
+<a href="${pageContext.request.contextPath}/movie/downloadImage/${movie.id}">Update image</a>
+		
 	<a href="${pageContext.request.contextPath}">Back to the home page!</a>
 	<a href="${pageContext.request.contextPath}/movie">Back to the
 		movie page!</a>

@@ -13,6 +13,7 @@ import javax.validation.constraints.NotNull;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.format.annotation.NumberFormat;
 import org.springframework.format.annotation.NumberFormat.Style;
+import org.springframework.web.multipart.MultipartFile;
 
 @Entity
 @Table(name = "movie")
@@ -46,7 +47,9 @@ public class Movie {
 
 //	@ManyToMany(mappedBy = "movies")
 //	private Set<Person> persons = new HashSet<Person>();
+	
 
+	
 	public Movie() {
 
 	}

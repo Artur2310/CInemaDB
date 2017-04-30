@@ -28,7 +28,8 @@
 
 			<form:label path="genre">Genre:</form:label>
 			<form:input path="genre" />
-
+			
+	
 
 		</fieldset>
 
@@ -36,12 +37,6 @@
 			tabindex="4"> </footer>
 
 	</form:form>
-	
-	<form method="POST" action="${pageContext.request.contextPath}/downloadImage" enctype="multipart/form-data">
-		File to upload: <input type="file" name="file"><br /> 
-		<input type="submit" value="Upload"> 
-		Press here to upload the file!
-	</form>
 	
 	
 	<a href="${pageContext.request.contextPath}">Back to the home page!</a>
